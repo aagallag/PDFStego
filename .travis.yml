@@ -1,5 +1,6 @@
 language: cpp
-
 compiler: gcc
+sudo: true
 
+install: install-dependencies.sh
 script: make
