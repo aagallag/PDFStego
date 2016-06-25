@@ -2,5 +2,8 @@ language: cpp
 compiler: gcc
 sudo: true
 
-install: install-dependencies.sh
+before_install:
+  - sudo apt-get update -qq
+  - sudo apt-get install -qq libpodofo-dev
+
 script: make
