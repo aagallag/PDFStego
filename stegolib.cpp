@@ -1,12 +1,6 @@
-#include <inttypes.h>
-#include <cstring>
-#include <assert.h>
 #include <fstream>
 #include <openssl/evp.h>
-#include <openssl/bio.h>
 #include <openssl/rand.h>
-#include <math.h>
-#include <dirent.h>
 #include <stack>
 #include <podofo/podofo.h>
 
