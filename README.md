@@ -70,7 +70,7 @@ Usage:
 	./pdfstego -x -s <stegofile> -m <messagefile>
 ```
 
-## 3rd License Info
+## 3rd Party License Info
 
 Base64 encoding/decoding is performed with base64.h from the project [NibbleAndAHalf](https://github.com/superwills/NibbleAndAHalf) by William Sherif.
 
