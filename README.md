@@ -1,4 +1,7 @@
 # PDFStego
+
+[![Build Status](https://travis-ci.org/aagallag/PDFStego.svg?branch=master)](https://travis-ci.org/aagallag/PDFStego)
+
 PDFStego is a tool that allows you to embed a hidden message in an innocent pdf file.  Before embedding the hidden message, the application will first encrypt the message data with AES-128 GCM and then encode the encrypted data as base64.  After embedding the encoded/encrpyted secret data in the pdf file, the pdf file will appear completely unchanged to the average, uninformed computer user.
 
 ## Warning
