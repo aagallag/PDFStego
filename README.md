@@ -16,46 +16,11 @@ $ podofotxtextract stego.pdf
 For a more secure PDF steganography tool, I recommend checking out [pdf_hide](https://github.com/ncanceill/pdf_hide).
 
 ## Environment Setup
-Download podofo-0.9.3.tar.gz from the [PoDoFo Project Page](http://podofo.sourceforge.net/download.html)
 
-Ensure all dependencies for PoDoFo are met.
-
-```
-Requirements to compile PoDoFo:
-
-cppunit (optional)
-freetype2
-fontconfig (Linux/Unix only)
-libjpeg (optional)
-libtiff (optional)
-libpng (optional)
-Lua 5.1 (optional, only for podofoimpose Lua imposition plans)
-OpenSSL
-zlib
-```
-
-My Ubuntu machine is a long way from stock install, but the below package was the only one I was missing.
+Install the PoDoFo library
 
 ```bash
-$ sudo apt-get install libfontconfig1-dev
-```
-
-Extract, compile, and install PoDoFo library.
-
-```bash
-$ tar -xvf ./podofo-0.9.3.tar.gz
-$ cd podofo-0.9.3/
-$ mkdir ../podofo-build
-$ cd ../podofo-build/
-$ cmake -G "Unix Makefiles" ../podofo-0.9.3
-$ make
-$ sudo make install
-```
-
-## Compile PDFStego
-
-```bash
-make
+$ sudo apt-get install libpodofo-dev
 ```
 
 ## PDFStego Usage
